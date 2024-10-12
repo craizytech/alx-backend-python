@@ -4,10 +4,10 @@ this module takes a list of ints and floats then
 returns their sum as float
 """
 
-from typing import List
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_list: List[int | float]) -> float:
+def sum_mixed_list(mxd_list: List[Union[int, float]]) -> float:
     """
     This function takes a list of integers and floats
     and returns their sum as float.
