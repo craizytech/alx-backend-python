@@ -7,5 +7,4 @@ This module defines variables with specific values
 a: int = 1
 pi: float = 3.14
 i_understand_annotations = True
-school: str = ""
-Holberton
+school: str = "Holberton"
