@@ -5,7 +5,10 @@ a string and a float
 """
 
 
-def to_kv(k: str, v: int | float) -> tuple:
+from typing import Union, Tuple
+
+
+def to_kv(k: str, v: Union[int, float]) -> Tuple:
     """
     This function creates a tuple out of a string and a float
 
