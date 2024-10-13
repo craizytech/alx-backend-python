@@ -8,7 +8,7 @@ a string and a float
 from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[int, Union[int, float]]:
     """
     This function creates a tuple out of a string and a float
 
