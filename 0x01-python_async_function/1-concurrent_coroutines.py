@@ -11,7 +11,7 @@ from typing import Callable, Awaitable, List
 
 wait_random: Callable[[int], Awaitable[float]] = __import__('0-basic_async_syntax').wait_random
 
-async def wait_n(n: int, max_delay:int):
+async def wait_n(n: int, max_delay:int) -> List[float]:
     delays: List = []
 
     for i in range(n):
