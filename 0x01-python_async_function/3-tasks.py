@@ -20,7 +20,7 @@ def task_wait_random(max_delay: int) -> Task:
 
     Args:
         max_delay (int): The number of seconds to delay the function
-    
+
     Returns:
         Awaitable Object (Task): This is an object that needs awaiting
     """
